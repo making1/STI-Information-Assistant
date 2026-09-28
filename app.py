@@ -102,7 +102,7 @@ st.caption("Prototype: NLP-style extraction of meaningful information from STI i
 st.warning("Do not enter names, phone numbers, national ID numbers, exact addresses, or other directly identifying information.")
 
 examples = ["Select an example","What is gonorrhoea?","I have burning when urinating and discharge. Could this be gonorrhoea?","How can I prevent gonorrhoea?","Where can I get tested for an STI?","Can gonorrhoea be treated?","Can an STI spread through oral sex?"]
-choice = st.selectbox("Try an example", examples)
+choice = st.selectbox("Select your Inquary", examples)
 q = st.text_area("Enter your STI question", "" if choice=="Select an example" else choice, height=120)
 
 if st.button("Analyze inquiry", type="primary"):
