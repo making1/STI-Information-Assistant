@@ -97,7 +97,7 @@ def response(i, ds, ss, dur, ex):
     return "\n\n".join(parts)
 
 st.title("🩺 STI Information Assistant")
-st.caption("Prototype: NLP-style extraction of meaningful information from STI inquiries")
+st.caption("NLP-style Chatbot for extraction of meaningful information from STI inquiries")
 
 st.warning("Do not enter names, phone numbers, national ID numbers, exact addresses, or other directly identifying information.")
 
